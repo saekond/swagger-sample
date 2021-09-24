@@ -91,6 +91,9 @@ responses:
           type: string
         '':
           $ref: '#/definitions/movies'
+        director_name:
+          type: string
+          description: 監督名
       required:
         - result
 definitions:

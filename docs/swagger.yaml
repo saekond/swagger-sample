@@ -91,9 +91,6 @@ responses:
           type: string
         '':
           $ref: '#/definitions/movies'
-        director_name:
-          type: string
-          description: 監督名
       required:
         - result
 definitions:
@@ -112,6 +109,9 @@ definitions:
         type: string
         description: 公開日
         format: date
+      'director_name ':
+        type: string
+        description: 監督名
     required:
       - name
       - description
